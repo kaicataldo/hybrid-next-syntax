@@ -1,103 +1,103 @@
-.source.js {
-  .keyword.operator {
+.syntax--source.syntax--js {
+  .syntax--keyword.syntax--operator {
     color: @hue-1;
 
-    // keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
+    // syntax--keywords are definded in https://github.com/atom/language-javascript/blob/master/grammars/javascript.cson
     // search "instanceof" for location
-    &.delete,
-    &.in,
-    &.of,
-    &.instanceof,
-    &.new,
-    &.typeof,
-    &.void {
+    &.syntax--delete,
+    &.syntax--in,
+    &.syntax--of,
+    &.syntax--instanceof,
+    &.syntax--new,
+    &.syntax--typeof,
+    &.syntax--void {
       color: @hue-3;
     }
   }
 
-  .storage.type.function,
-  .storage.type.arrow {
+  .syntax--storage.syntax--type.syntax--function,
+  .syntax--storage.syntax--type.syntax--arrow {
     color: @hue-1;
   }
 
-  .punctuation {
-    &.definition.parameters {
+  .syntax--punctuation {
+    &.syntax--definition.syntax--parameters {
       color: @hue-1;
     }
 
-    &.section.class {
+    &.syntax--section.syntax--class {
       color: @hue-6-2;
     }
   }
 
-  .keyword.control {
-    &.flow,
-    &.trycatch {
+  .syntax--keyword.syntax--control {
+    &.syntax--flow,
+    &.syntax--trycatch {
       color: @hue-5;
     }
   }
 
-  .variable.language.this {
+  .syntax--variable.syntax--language.syntax--this {
     font-style: italic;
     color: @hue-3;
   }
 
-  .variable.language.prototype {
+  .syntax--variable.syntax--language.syntax--prototype {
     color: @hue-6;
   }
 
-  .variable.language.default {
+  .syntax--variable.syntax--language.syntax--default {
     color: @hue-3;
   }
 
-  .variable.constant {
+  .syntax--variable.syntax--constant {
     color: @syntax-fg;
   }
 
-  .keyword.operator.accessor {
+  .syntax--keyword.syntax--operator.syntax--accessor {
     color: @syntax-fg;
   }
 
-  .meta.brace {
-    &.square, &.curly {
+  .syntax--meta.syntax--brace {
+    &.syntax--square, &.syntax--curly {
       color: @hue-6-2;
     }
 
-    &.round {
+    &.syntax--round {
       color: @hue-1;
     }
   }
 
-  .punctuation.definition.modules {
+  .syntax--punctuation.syntax--definition.syntax--modules {
     color: @hue-6-2;
   }
 
-  .punctuation.definition.arguments.bracket.round {
+  .syntax--punctuation.syntax--definition.syntax--arguments.syntax--bracket.syntax--round {
     color: @hue-1;
   }
 
-  .punctuation.quasi.element {
+  .syntax--punctuation.syntax--quasi.syntax--element {
     color: @hue-6-2;
   }
 
-  .meta.group.braces.round {
+  .syntax--meta.syntax--group.syntax--braces.syntax--round {
     color: @hue-1;
   }
 
-  .keyword.other {
+  .syntax--keyword.syntax--other {
     color: @hue-5;
   }
 
-  .string.unquoted {
+  .syntax--string.syntax--unquoted {
     color: @syntax-fg;
   }
 
-  .punctuation.key-value {
+  .syntax--punctuation.syntax--key-value {
     color: @hue-1;
   }
 
-  .support.type.object,
-  .support.variable {
+  .syntax--support.syntax--type.syntax--object,
+  .syntax--support.syntax--variable {
     color: @hue-6;
   }
 }
